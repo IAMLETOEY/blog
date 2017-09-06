@@ -7,7 +7,7 @@ const MysqlStore = require("koa-mysql-session");
 const config = require("./config/default.js");
 const router = require("koa-router");
 const views = require("koa-views");
-const koaStatic = require("koca-static");
+const koaStatic = require("koa-static");
 const app = new Koa();
 
 // session存储配置
