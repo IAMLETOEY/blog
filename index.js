@@ -37,6 +37,7 @@ app.use(
 app.use(bodyParser());
 
 app.use(require("./routers/signup.js").routes());
+app.use(require('./routers/signin.js').routes())
 
 app.listen(3000);
 
